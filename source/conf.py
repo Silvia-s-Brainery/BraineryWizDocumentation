@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'BraineryWizDocumentation'
+project = 'BraineryWiz'
 copyright = '2023, Bijan Sayyafzaden - Silvia Mazzoni'
 author = 'Bijan Sayyafzaden - Silvia Mazzoni'
 

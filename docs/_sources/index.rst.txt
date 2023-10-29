@@ -1,7 +1,4 @@
-.. BraineryWizDocumentation documentation master file, created by
-   sphinx-quickstart on Sun Oct 29 17:29:21 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+:html_theme.sidebar_secondary.remove:
 
 Welcome to BraineryWiz's documentation!
 ====================================================
@@ -12,9 +9,12 @@ Welcome to BraineryWiz's documentation!
 
 
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Python Version <Python_Version/index>
+   TCL Version <TCL_Version/index>
+   FEM Version <FEM_Wiz/index>
+
+.. _GitHub: https://github.com/Silvia-s-Brainery/BraineryWiz
