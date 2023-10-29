@@ -33,3 +33,7 @@ goto end
 
 :end
 popd
+
+cd %BUILDDIR%
+cd. > .nojekyll
+cd..
