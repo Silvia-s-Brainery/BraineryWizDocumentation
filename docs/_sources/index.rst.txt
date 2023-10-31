@@ -46,3 +46,4 @@ Welcome to BraineryWiz's documentation!
    TCL Version <TCL_Version/index>
    FEM Version <FEM_Wiz/index>
 
+Send us any bug if you encounter with and also any requirement if you need to be considered in plots.

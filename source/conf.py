@@ -74,10 +74,9 @@ html_theme_options = {
             "icon": "_static/BraineryWizico.ico",
             "type": "local",
         },
-        
     ],
-    # "header_links_before_dropdown": 6,
-    # "announcement": """This website is for version 5. You can find the documentation for version 4 <a href='https://altair-viz.github.io/altair-viz-v4/'>here</a>.""",
+    "header_links_before_dropdown": 6,
+    "announcement": """The latest Released version: 0.91 - Email Address: <a href = 'mailto: BraineryWiz@Gmail.com'>BraineryWiz@Gmail.com</a>.""",
 }
    
 
