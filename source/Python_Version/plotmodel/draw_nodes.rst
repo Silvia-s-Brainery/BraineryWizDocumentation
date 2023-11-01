@@ -16,7 +16,7 @@ Examples
    # Create the OpenSees model
    # ...
    
-   # Call PlotModel command with 
+   # Call PlotModel command 
    bz.PlotModel(plotmode=3, draw_nodes=True)
 
 .. raw:: html
@@ -31,7 +31,7 @@ Examples
    # Create the OpenSees model
    # ...
    
-   # Call PlotModel command with 
+   # Call PlotModel command 
    bz.PlotModel(plotmode=3, draw_nodes=False)
 
 .. raw:: html
