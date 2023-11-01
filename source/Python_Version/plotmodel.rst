@@ -20,3 +20,4 @@ PlotModel is the command that should be used to plot the model. The structure of
    :caption: PlotModel Command Options
 
    plotmodel/draw_nodes
+   plotmodel/show_nodes_tag
