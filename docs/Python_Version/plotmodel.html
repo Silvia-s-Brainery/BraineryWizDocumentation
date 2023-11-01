@@ -45,7 +45,7 @@
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="PlotDefo Command (Plot Deformation)" href="plotdefo.html" />
+    <link rel="next" title="draw_nodes Option" href="plotmodel/draw_nodes.html" />
     <link rel="prev" title="Installation" href="installation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -377,7 +377,10 @@ document.write(`
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="index.html">BraineryWiz Python Version Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">PlotModel Command (Plot Model)</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">PlotModel Command (Plot Model)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/draw_nodes.html">draw_nodes Option</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="plotdefo.html">PlotDefo Command (Plot Deformation)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot mode shape)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="realtime.html">RealTimeObj Command (Plot at Each desired Time Step)</a></li>
@@ -442,6 +445,28 @@ document.write(`
                   
   <section id="plotmodel-command-plot-model">
 <span id="plotmodelpy"></span><h1>PlotModel Command (Plot Model)<a class="headerlink" href="#plotmodel-command-plot-model" title="Permalink to this heading">#</a></h1>
+<p>PlotModel is the command that should be used to plot the model. The structure of the command is in this way:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">PlotModel</span> <span class="p">(</span><span class="n">plotmode</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><dl class="simple">
+<dt>plotmode</dt><dd><p>For different python editors there is a need to consider some settings to plot the figure. There are different modes to plot figures and if your editor does not show the figure change the number of the mode! (1,2,3,4,5,6)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><cite>**kwargs</cite></dt><dd><p>Stands for other options that user can use to provide desired changes in the plot. In the following the existing options are described.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PlotModel Command Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/draw_nodes.html">draw_nodes Option</a></li>
+</ul>
+</div>
 </section>
 
 
@@ -464,11 +489,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="plotdefo.html"
+       href="plotmodel/draw_nodes.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">PlotDefo Command (Plot Deformation)</p>
+        <p class="prev-next-title">draw_nodes Option</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

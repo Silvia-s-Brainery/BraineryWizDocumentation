@@ -53,7 +53,7 @@ html_theme_options = {
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
-    "secondary_sidebar_items": ["page-toc"],# "edit-this-page", "sourcelink"],
+    "secondary_sidebar_items": [],#"page-toc"],# "edit-this-page", "sourcelink"],
     "primary_sidebar_end": [],
     "footer_items": [],
     "icon_links": [
