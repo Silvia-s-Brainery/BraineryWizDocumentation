@@ -11,3 +11,9 @@ Python **BraineryWiz** is a package for plotting OpenSees models and basically i
 
    self
    installation
+   plotmodel
+   plotdefo
+   plotmodeshape
+   realtime
+   plotanime
+   plotanimegif

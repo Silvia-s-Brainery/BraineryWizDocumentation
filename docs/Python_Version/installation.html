@@ -45,7 +45,7 @@
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="BraineryWiz TCL Version Documentation" href="../TCL_Version/index.html" />
+    <link rel="next" title="PlotModel Command (Plot Model)" href="plotmodel.html" />
     <link rel="prev" title="BraineryWiz Python Version Documentation" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -127,9 +127,11 @@
     
     
     
-    <img src="../_static/BraineryWizLogo.png" class="logo__image only-light" alt="BraineryWiz  documentation - Home"/>
-    <script>document.write(`<img src="../_static/BraineryWizLogo.png" class="logo__image only-dark" alt="BraineryWiz  documentation - Home"/>`);</script>
+    <img src="../_static/BraineryWizLogo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/BraineryWizLogo.png" class="logo__image only-dark" alt=""/>`);</script>
   
+  
+    <p class="title logo__title">BraineryWiz</p>
   
 </a></div>
     
@@ -375,6 +377,12 @@ document.write(`
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="index.html">BraineryWiz Python Version Documentation</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel.html">PlotModel Command (Plot Model)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo.html">PlotDefo Command (Plot Deformation)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot mode shape)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="realtime.html">RealTimeObj Command (Plot at Each desired Time Step)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanime.html">PlotAnime Command (Plot Animation)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif.html">PlotAnimeGif command (Create Animation in gif format)</a></li>
 </ul>
 </div>
 </nav></div>
@@ -434,8 +442,12 @@ document.write(`
                   
   <section id="installation">
 <span id="id1"></span><h1>Installation<a class="headerlink" href="#installation" title="Permalink to this heading">#</a></h1>
-<p>BraineryWiz can be installed using:</p>
+<p>BraineryWiz can be installed using pip as shown in the following:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>BraineryWiz
+</pre></div>
+</div>
+<p>After instalation import the BraineryWiz library into your code as shown in the following:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">BraineryWiz</span> <span class="k">as</span> <span class="nn">bz</span>
 </pre></div>
 </div>
 <div class="admonition note">
@@ -464,11 +476,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="../TCL_Version/index.html"
+       href="plotmodel.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">BraineryWiz TCL Version Documentation</p>
+        <p class="prev-next-title">PlotModel Command (Plot Model)</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

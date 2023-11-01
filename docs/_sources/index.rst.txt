@@ -8,7 +8,7 @@ Welcome to BraineryWiz's documentation!
 
 .. rst-class:: lead
 
-   **BraineryWiz** is mainly a Python package for plotting OpenSees (A Finite Element analyze Software) models. There is also a TCL version that can be used to show the OpenSees models created using TCL programming language. Beside them FEMWiz is a Python package that currently exist inside the Python version of BraineryWiz to plot any Finite Element models.
+   **BraineryWiz** is mainly a Python package for plotting **OpenSees (A Finite Element analyze Software) models**. There is also a TCL version that can be used to show the OpenSees models created using TCL programming language. Beside them FEMWiz is a Python package that currently exist inside the Python version of BraineryWiz to plot any Finite Element models.
 
 
 .. grid:: 1 1 2 2
@@ -47,3 +47,9 @@ Welcome to BraineryWiz's documentation!
    FEM Version <FEM_Wiz/index>
 
 Send us any bug if you encounter with and also any requirement if you need to be considered in plots.
+
+.. admonition:: Programming Ethics : (Responsibility about Users Privacy)
+
+   **This is Bijan Sayyafzadeh, Because this package is not an opensource code, by this text I state that I'm the main developer and responsible of all code lines of this package and it is stated by me that the program has been written by completely respect to the users privacy and their data and their privacy and there is no collection, monitoring, and exchange of users personal information and data in this package and I am the main responsible of this ethical statement. This statement is valid for both Python and TCL and FEM versions for all the time.**
+
+   
