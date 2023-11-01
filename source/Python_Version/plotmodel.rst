@@ -26,3 +26,4 @@ PlotModel is the command that should be used to plot the model. The structure of
    plotmodel/title
    plotmodel/widthheight
    plotmodel/eledata
+   plotmodel/nodedata
