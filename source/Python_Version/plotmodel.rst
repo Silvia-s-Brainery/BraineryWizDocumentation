@@ -29,3 +29,4 @@ PlotModel is the command that should be used to plot the model. The structure of
    plotmodel/nodedata
    plotmodel/imagetypename
    plotmodel/quiver
+   plotmodel/fibers
