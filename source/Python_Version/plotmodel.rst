@@ -24,3 +24,5 @@ PlotModel is the command that should be used to plot the model. The structure of
    plotmodel/show_elemens_tag
    plotmodel/onhover
    plotmodel/title
+   plotmodel/widthheight
+   plotmodel/eledata
