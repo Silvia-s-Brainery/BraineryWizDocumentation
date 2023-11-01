@@ -22,3 +22,4 @@ PlotModel is the command that should be used to plot the model. The structure of
    plotmodel/draw_nodes
    plotmodel/show_nodes_tag
    plotmodel/show_elemens_tag
+   plotmodel/onhover
