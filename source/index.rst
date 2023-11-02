@@ -52,4 +52,6 @@ Send us any bug if you encounter with and also any requirement if you need to be
 
    **This is Bijan Sayyafzadeh, Because this package is not an opensource code, by this text I state that I'm the main developer and responsible of all code lines of this package and it is stated by me that the program has been written by completely respect to the users privacy and their data and their privacy and there is no collection, monitoring, and exchange of users personal information and data in this package and I am the main responsible of this ethical statement. This statement is valid for both Python and TCL and FEM versions for all the time.**
 
+.. raw:: html
    
+   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=e0c7ff&w=a&t=n&d=NIlENIEXmhU22xnYVndLdZ-jq2hb-K755GK1om7TyyA&co=ffffff&cmo=77a6ff&cmn=62f662&ct=000000'></script>
