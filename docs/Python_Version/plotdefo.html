@@ -45,7 +45,7 @@
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="PlotModeShape Command (Plot mode shape)" href="plotmodeshape.html" />
+    <link rel="next" title="scale_factor Option" href="plotdefo/scalefactor.html" />
     <link rel="prev" title="show_constrained and not_show_retained_list and constrained_size Options" href="plotmodel/RetainedConstrained.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -395,7 +395,23 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="plotmodel/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">PlotDefo Command (Plot Deformation)</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">PlotDefo Command (Plot Deformation)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/scalefactor.html">scale_factor Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/drawwire.html">draw_wire_shadow Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/draw_nodes.html">draw_nodes Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/show_nodes_tag.html">show_nodes_tag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/show_elemens_tag.html">show_elemens_tag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/onhover.html">onhover_message Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/widthheight.html">fig_width and fig_height Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/eledata.html">elements_data_tag and elements_data Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/nodedata.html">nodes_data_tag and nodes_data Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/imagetypename.html">image_type and image_filename Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/legends.html">plot_legends Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/verticalaxis.html">vertical_axis Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot mode shape)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="realtime.html">RealTimeObj Command (Plot at Each desired Time Step)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotanime.html">PlotAnime Command (Plot Animation)</a></li>
@@ -459,6 +475,41 @@ document.write(`
                   
   <section id="plotdefo-command-plot-deformation">
 <span id="plotdefopy"></span><h1>PlotDefo Command (Plot Deformation)<a class="headerlink" href="#plotdefo-command-plot-deformation" title="Permalink to this heading">#</a></h1>
+<p>PlotDefo is the command that should be used to plot the deformed model (At the current step). The structure of the command is in this way:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">PlotDefo</span> <span class="p">(</span><span class="n">plotmode</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><dl class="simple">
+<dt>plotmode</dt><dd><p>For different python editors there is a need to consider some settings to plot the figure. There are different modes to plot figures and if your editor does not show the figure change the number of the mode! (1,2,3,4,5,6)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><cite>**kwargs</cite></dt><dd><p>Stands for other options that user can use to provide desired changes in the plot. In the following the existing options are described.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PlotModel Command Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/scalefactor.html">scale_factor Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/drawwire.html">draw_wire_shadow Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/draw_nodes.html">draw_nodes Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/show_nodes_tag.html">show_nodes_tag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/show_elemens_tag.html">show_elemens_tag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/onhover.html">onhover_message Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/title.html">title Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/widthheight.html">fig_width and fig_height Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/eledata.html">elements_data_tag and elements_data Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/nodedata.html">nodes_data_tag and nodes_data Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/imagetypename.html">image_type and image_filename Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/legends.html">plot_legends Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/verticalaxis.html">vertical_axis Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotdefo/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
+</ul>
+</div>
 </section>
 
 
@@ -481,11 +532,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="plotmodeshape.html"
+       href="plotdefo/scalefactor.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">PlotModeShape Command (Plot mode shape)</p>
+        <p class="prev-next-title">scale_factor Option</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
