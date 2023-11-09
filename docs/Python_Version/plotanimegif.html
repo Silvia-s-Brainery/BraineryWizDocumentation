@@ -45,8 +45,8 @@
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="BraineryWiz TCL Version Documentation" href="../TCL_Version/index.html" />
-    <link rel="prev" title="show_constrained and not_show_retained_list and constrained_size Options" href="plotanime/RetainedConstrained.html" />
+    <link rel="next" title="scale_factor Option" href="plotanimegif/scalefactor.html" />
+    <link rel="prev" title="Record() Command" href="plotanime/record.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -415,8 +415,6 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot mode shape)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="realtime.html">RealTimeObj Command (Plot at Each desired Time Step)</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="plotanime.html">PlotAnime Command (Plot Animation)</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="plotanime/recorderreset.html">RecorderReset() Command</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotanime/record.html">Record() Command</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotanime/scalefactor.html">scale_factor Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotanime/drawwire.html">draw_wire_shadow Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotanime/draw_nodes.html">draw_nodes Option</a></li>
@@ -431,9 +429,27 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="plotanime/legends.html">plot_legends Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotanime/verticalaxis.html">vertical_axis Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotanime/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanime/recorderfilename.html">recorderfilename option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanime/recorderreset.html">RecorderReset() Command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanime/record.html">Record() Command</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">PlotAnimeGif command (Create Animation in gif format)</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">PlotAnimeGif command (Create Animation in gif format)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/scalefactor.html">scale_factor Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/drawwire.html">draw_wire_shadow Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/draw_nodes.html">draw_nodes Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/show_nodes_tag.html">show_nodes_tag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/show_elemens_tag.html">show_elemens_tag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/onhover.html">onhover_message Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/widthheight.html">fig_width and fig_height Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/verticalaxis.html">vertical_axis Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/recorderfilename.html">recorderfilename option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/recorderreset.html">RecorderReset() Command</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotanimegif/record.html">Record() Command</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </nav></div>
@@ -493,6 +509,67 @@ document.write(`
                   
   <section id="plotanimegif-command-create-animation-in-gif-format">
 <span id="plotanimegifpy"></span><h1>PlotAnimeGif command (Create Animation in gif format)<a class="headerlink" href="#plotanimegif-command-create-animation-in-gif-format" title="Permalink to this heading">#</a></h1>
+<p>The structure of this command is completely compatible with <a class="reference internal" href="plotanime.html#plotanimepy"><span class="std std-ref">PlotAnime</span></a> command but this command creates a gif file from the recorded steps. Just use PlotAnimeGif instead of PlotAnime. To create an animation or gif of animation:</p>
+<ul class="simple">
+<li><p>Using <a class="reference internal" href="plotanime/record.html#plotanimerecordpy"><span class="std std-ref">Record()</span></a> command record each step that are desired to animate.</p></li>
+<li><p>Using <a class="reference internal" href="plotanime.html#plotanimepy"><span class="std std-ref">PlotAnime</span></a> or PlotAnimeGif create the animation.</p></li>
+</ul>
+<p><strong>Attention:</strong> The <a class="reference internal" href="plotanime/record.html#plotanimerecordpy"><span class="std std-ref">Record()</span></a> command add the current analyzed step to all previously recorded steps. It is important to remember to use <a class="reference internal" href="plotanime/recorderreset.html#plotanimerecorderrestpy"><span class="std std-ref">RecordReset()</span></a> command to reset the recorder and delete the recorded steps for a new animation. Also remeber that generating gif file usually <strong>takes long time!</strong></p>
+<p>The structure of the command is in this way:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">openseespy.opensees</span> <span class="k">as</span> <span class="nn">ops</span>
+<span class="kn">import</span> <span class="nn">BraineryWiz</span> <span class="k">as</span> <span class="nn">bz</span>
+
+<span class="c1">#...</span>
+<span class="c1">#codes of creating OpenSees model</span>
+<span class="c1">#...</span>
+
+<span class="n">numberOfSteps</span><span class="o">=</span><span class="mi">100</span>    <span class="c1">#Imagine the number of steps that want to be recorded are 100 steps</span>
+
+<span class="n">bz</span><span class="o">.</span><span class="n">RecorderReset</span><span class="p">()</span>   <span class="c1">#Reset the recorder to prevent adding new steps (slides) to previous recorded slides</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">numberOfSteps</span><span class="p">):</span>
+
+     <span class="n">ops</span><span class="o">.</span><span class="n">analyze</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mf">0.01</span><span class="p">)</span> <span class="c1">#One step analysis</span>
+     <span class="n">bz</span><span class="o">.</span><span class="n">Record</span><span class="p">()</span>         <span class="c1">#Record the analyzed step</span>
+
+
+<span class="n">bz</span><span class="o">.</span><span class="n">PlotAnimeGif</span> <span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1">#Show animation of the recorded steps</span>
+</pre></div>
+</div>
+<p>Click <a class="reference download internal" download="" href="../_downloads/369f43db888f9a385cb8cb5aab9bd78a/Anime.gif"><code class="xref download docutils literal notranslate"><span class="pre">here</span></code></a> to downlad the created gif file as a sample.</p>
+<section id="plotanimegif-command-options">
+<h2>PlotAnimeGif command options<a class="headerlink" href="#plotanimegif-command-options" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt><cite>**kwargs</cite></dt><dd><p>Stands for other options that user can use to provide desired changes in the plot. In the following the existing options are described.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PlotAnimeGif **kwargs Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/scalefactor.html">scale_factor Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/drawwire.html">draw_wire_shadow Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/draw_nodes.html">draw_nodes Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/show_nodes_tag.html">show_nodes_tag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/show_elemens_tag.html">show_elemens_tag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/onhover.html">onhover_message Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/title.html">title Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/widthheight.html">fig_width and fig_height Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/verticalaxis.html">vertical_axis Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/RetainedConstrained.html">show_constrained and not_show_retained_list and constrained_size Options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/recorderfilename.html">recorderfilename option</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PlotAnimeGif Related Commands</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/recorderreset.html">RecorderReset() Command</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotanimegif/record.html">Record() Command</a></li>
+</ul>
+</div>
+</section>
 </section>
 
 
@@ -506,20 +583,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="plotanime/RetainedConstrained.html"
+       href="plotanime/record.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">show_constrained and not_show_retained_list and constrained_size Options</p>
+        <p class="prev-next-title">Record() Command</p>
       </div>
     </a>
     <a class="right-next"
-       href="../TCL_Version/index.html"
+       href="plotanimegif/scalefactor.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">BraineryWiz TCL Version Documentation</p>
+        <p class="prev-next-title">scale_factor Option</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

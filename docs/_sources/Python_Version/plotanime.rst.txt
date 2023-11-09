@@ -3,7 +3,7 @@
 PlotAnime Command (Plot Animation)
 ====================================================
 
-PlotAnime is the command that should be used to show **an animation*** of **recorded steps**. Users initially should record the desired steps using **Record()** command. The **Record()** command records the required data for creating animation and in each desired step user should call the **Record()** command. Finally, when all desired steps recording finished, by calling PlotAnime command, the animation of the plot will be shown. Using **RecorderReset()** command the recorded steps will be reset. The structure of the command is in this way:
+PlotAnime is the command that should be used to show **an animation** of **recorded steps**. Users initially should record the desired steps using :ref:`Record() <plotanimerecordpy>` command. The :ref:`Record() <plotanimerecordpy>` command records the required data for creating animation and in each desired step user should call the :ref:`Record() <plotanimerecordpy>` command. Finally, when all desired steps recording finished, by calling PlotAnime command, the animation of the plot will be shown. Using :ref:`RecordReset() <plotanimerecorderrestpy>` command the recorded steps will be reset. The structure of the command is in this way:
 
 .. code-block:: python
 
