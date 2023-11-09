@@ -21,6 +21,14 @@ Welcome to BraineryWiz's documentation!
    :gutter: 2 2 3 3
    :class-container: startpage-grid
 
+   .. grid-item-card:: Latest Updates
+      :columns: 12
+
+      :ref:`Plot Animation <plotanimepy>` for Python version added. Date: 11/09/2023
+      
+      :ref:`Plot Deformation <plotdefopy>` for Python version added. Date: 04/09/2023
+
+
    .. grid-item-card:: Python Version
       :link: pythonversion
       :link-type: ref
@@ -28,14 +36,14 @@ Welcome to BraineryWiz's documentation!
 
       In this part you will get the documentation of the Python version of BraineryWiz to plot OpenSees models and the description of commands has been presented.
 
-   .. grid-item-card:: TCL Version
+   .. grid-item-card:: TCL Version (under construction)
       :link: tcl-version
       :link-type: ref
       :link-alt: TCL Version
 
       In this part the installation of TCL Version of BraineryWiz explained and also it is expressed how to use it for plotting OpenSees TCL models.
 
-   .. grid-item-card:: FEM Version
+   .. grid-item-card:: FEM Version (under construction)
       :link: fem-wiz
       :link-type: ref
       :link-alt: FEM Version
@@ -56,6 +64,7 @@ Send us any bug if you encounter with and also any requirement if you need to be
 .. admonition:: Programming Ethics : (Responsibility about Users Privacy)
 
    **This is Bijan Sayyafzadeh, Because this package is not an opensource code, by this text I state that I'm the main developer and responsible of all code lines of this package and it is stated by me that the program has been written by completely respect to the users privacy and their data and their privacy and there is no collection, monitoring, and exchange of users personal information and data in this package and I am the main responsible of this ethical statement. This statement is valid for both Python and TCL and FEM versions for all the time.**
+
 
 .. raw:: html
    
