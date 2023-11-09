@@ -17,7 +17,7 @@ PlotDefo is the command that should be used to plot the deformed model (At the c
 
 .. toctree::
    :maxdepth: 1
-   :caption: PlotModel Command Options
+   :caption: PlotDefo Command Options
 
    plotdefo/scalefactor
    plotdefo/drawwire
