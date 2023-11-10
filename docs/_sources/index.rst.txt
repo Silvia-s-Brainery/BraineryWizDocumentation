@@ -23,6 +23,11 @@ Welcome to BraineryWiz's documentation!
 
    .. grid-item-card:: Latest Updates
       :columns: 12
+      
+	  
+      :ref:`Python Version <pythonversion>` Documentation now is complete.
+	  
+      :ref:`Plot RealTime <realtimepy>` for Python version added. Date: 11/10/2023
 	  
       :ref:`Plot ModeShape <plotmodepy>` for Python version added. Date: 11/10/2023
 	  

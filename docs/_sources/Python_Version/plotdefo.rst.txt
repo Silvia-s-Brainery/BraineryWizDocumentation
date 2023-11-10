@@ -3,10 +3,11 @@
 PlotDefo Command (Plot Deformation)
 ====================================
 
-PlotDefo is the command that should be used to plot the deformed model (At the current step). The structure of the command is in this way:
+PlotDefo is the command that should be used to plot the deformed model (At the current step).
 
 .. code-block:: python
-
+   :caption: The structure of the command
+   
    PlotDefo (plotmode=3, **kwargs)
 	
 * plotmode

@@ -3,10 +3,11 @@
 PlotModel Command (Plot Model)
 ==============================
 
-PlotModel is the command that should be used to plot the model. The structure of the command is in this way:
+PlotModel is the command that should be used to plot the model.
 
 .. code-block:: python
-
+   :caption: The structure of the command
+   
    PlotModel (plotmode=3, **kwargs)
 	
 * plotmode

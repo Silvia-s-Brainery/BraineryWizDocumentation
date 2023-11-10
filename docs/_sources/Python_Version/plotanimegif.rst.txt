@@ -10,10 +10,10 @@ The structure of this command is completely compatible with :ref:`PlotAnime <plo
 
 **Attention:** The :ref:`Record() <plotanimerecordpy>` command add the current analyzed step to all previously recorded steps. It is important to remember to use :ref:`RecordReset() <plotanimerecorderrestpy>` command to reset the recorder and delete the recorded steps for a new animation. Also remeber that generating gif file usually **takes long time!**
 
-The structure of the command is in this way:
 
 .. code-block:: python
-
+   :caption: The structure of the command
+   
    import openseespy.opensees as ops
    import BraineryWiz as bz
    

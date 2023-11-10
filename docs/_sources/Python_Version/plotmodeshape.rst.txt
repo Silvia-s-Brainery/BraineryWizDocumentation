@@ -6,7 +6,8 @@ PlotModeShape Command (Plot mode shape)
 PlotModeShape command is for plotting one of the modeshapes of the model. This command initially using eigen command execute a eigen analysis and according results of the eigen analysis plots the requested mode shape. 
 
 .. code-block:: python
-
+   :caption: The structure of the command
+   
    PlotModeShape (plotmode=3, **kwargs)
    
 * plotmode

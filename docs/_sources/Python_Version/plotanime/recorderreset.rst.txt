@@ -3,9 +3,10 @@
 RecorderReset() Command
 ====================================================
   
-This command is for reseting the recording the recoded steps from the file. The structure of the command is in this way:
+This command is for reseting the recording the recoded steps from the file.
 
 .. code-block:: python
+   :caption: The structure of the command
    
    import openseespy.opensees as ops
    import BraineryWiz as bz

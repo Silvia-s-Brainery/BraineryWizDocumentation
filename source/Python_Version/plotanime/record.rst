@@ -3,9 +3,10 @@
 Record() Command
 ====================================================
 
-This command is for recording the current step analyzed data and add them as a slide to previous recoded data. The structure of the command is in this way:
+This command is for recording the current step analyzed data and add them as a slide to previous recoded data. 
 
 .. code-block:: python
+   :caption: The structure of the command
    
    import openseespy.opensees as ops
    import BraineryWiz as bz
