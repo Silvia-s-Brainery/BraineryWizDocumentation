@@ -1,7 +1,7 @@
-.. _updateshist:
-
 :html_theme.sidebar_secondary.remove:
-   
+ 
+.. _updateshist:
+  
 Updates History and News
 ====================================================
 
