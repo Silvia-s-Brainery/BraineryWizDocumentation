@@ -61,7 +61,7 @@ Welcome to BraineryWiz's documentation!
    Python Version <Python_Version/index>
    TCL Version <TCL_Version/index>
    FEM Version <FEM_Wiz/index>
-   Updates History & News <updateshist>
+   Updates History & News <Hist&News/index>
 
 Send us any bug if you encounter with and also any requirement if you need to be considered in plots.
 
