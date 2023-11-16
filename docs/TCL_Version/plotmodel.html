@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>BraineryWiz TCL Version Documentation &#8212; BraineryWiz  documentation</title>
+    <title>PlotModel Command (Plot Model) &#8212; BraineryWiz  documentation</title>
   
   
   
@@ -40,12 +40,12 @@
     <script src="../_static/doctools.js?v=888ff710"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/design-tabs.js?v=36754332"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/plotmodel';</script>
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Installation" href="installation.html" />
-    <link rel="prev" title="Record() Command" href="../Python_Version/plotanimegif/record.html" />
+    <link rel="next" title="DrawNodesOff Option" href="plotmodel/DrawNodesOff.html" />
+    <link rel="prev" title="Installation" href="installation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -157,7 +157,7 @@
                 
 
                     <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
+                      <a class="nav-link nav-internal" href="index.html">
                         TCL Version
                       </a>
                     </li>
@@ -300,7 +300,7 @@ document.write(`
                 
 
                     <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
+                      <a class="nav-link nav-internal" href="index.html">
                         TCL Version
                       </a>
                     </li>
@@ -388,9 +388,9 @@ document.write(`
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">TCL Version</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">BraineryWiz TCL Version Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">BraineryWiz TCL Version Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="plotmodel.html">PlotModel Command (Plot Model)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">PlotModel Command (Plot Model)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="plotmodel/DrawNodesOff.html">DrawNodesOff Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotmodel/ShowNodeTag.html">ShowNodeTag Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plotmodel/ShowEleTag.html">ShowEleTag Option</a></li>
@@ -437,7 +437,10 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">BraineryWiz...</li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">BraineryWiz TCL Version Documentation</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">PlotModel...</li>
   </ul>
 </nav>
 </div>
@@ -454,16 +457,28 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="brainerywiz-tcl-version-documentation">
-<span id="tcl-version"></span><h1>BraineryWiz TCL Version Documentation<a class="headerlink" href="#brainerywiz-tcl-version-documentation" title="Link to this heading">#</a></h1>
-<p>TCL <strong>BraineryWiz</strong> is package for plotting OpenSees models and also finite element models and is basically is independent of the element. In this document you will find out the way of installation and usage of BraineryWiz TCL package for plotting OpenSees models that are provided using TCL coding.
-BraineryWiz is using an element independent approach that do not need to know the type of elements to plot them. So, it makes this package more powerful to plot any type of element without any need of defining them. Also, this package uses GPU to create more fluent and faster. This package is under develop and users using following addresses can find out the latest updates and new features.</p>
+  <section id="plotmodel-command-plot-model">
+<span id="plotmodeltcl"></span><h1>PlotModel Command (Plot Model)<a class="headerlink" href="#plotmodel-command-plot-model" title="Link to this heading">#</a></h1>
+<p>PlotModel is the command that should be used to plot the model.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">The structure of the command</span><a class="headerlink" href="#id1" title="Link to this code">#</a></div>
+<div class="highlight-tcl notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>BraineryWiz.tcl
+
+<span class="nv">PlotModel</span>
+</pre></div>
+</div>
+</div>
+<p>In the following the existing options for this command are described. User can use one or multiple of the following options after the command.</p>
 <div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">TCL Version</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">BraineryWiz TCL Version Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plotmodel.html">PlotModel Command (Plot Model)</a></li>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PlotModel Command Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/OnHover.html">OnHover Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/title.html">title Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodel/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
 </ul>
 </div>
 </section>
@@ -479,20 +494,20 @@ BraineryWiz is using an element independent approach that do not need to know th
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../Python_Version/plotanimegif/record.html"
+       href="installation.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Record() Command</p>
+        <p class="prev-next-title">Installation</p>
       </div>
     </a>
     <a class="right-next"
-       href="installation.html"
+       href="plotmodel/DrawNodesOff.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Installation</p>
+        <p class="prev-next-title">DrawNodesOff Option</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
