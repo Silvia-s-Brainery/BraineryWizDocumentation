@@ -23,7 +23,7 @@ Welcome to BraineryWiz's documentation!
 
    .. grid-item-card:: Latest Updates and News
       :columns: 12
-      :link: updatehist
+      :link: updateshist
       :link-type: ref
       :link-alt: Updates History and News
 	  
