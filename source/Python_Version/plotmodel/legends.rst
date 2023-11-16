@@ -2,7 +2,7 @@
 
 plot_legends Option
 ====================================================
-A boolean that determines to show legends of various element on the up right corner of the plot. Users are able to turn of some elements by clicking on their corresponding legend. It helps some times in crowded models to investigate some other elements in details. (Default=False)
+A boolean that determines to show legends of various element on the up right corner of the plot. Users are able to turn off some elements by clicking on their corresponding legend. It helps some times in crowded models to investigate some other elements in details. (Default=False)
 
 Example
 --------
