@@ -21,21 +21,15 @@ Welcome to BraineryWiz's documentation!
    :gutter: 2 2 3 3
    :class-container: startpage-grid
 
-   .. grid-item-card:: Latest Updates
+   .. grid-item-card:: Latest Updates and News
       :columns: 12
-      
+      :link: updatehist
+      :link-type: ref
+      :link-alt: Updates History and News
 	  
-      :ref:`Python Version <pythonversion>` Documentation now is complete.
+      :ref:`Installation <installationTCL>` for TCL version added. Date: 11/16/2023
 	  
-      :ref:`Plot RealTime <realtimepy>` for Python version added. Date: 11/10/2023
-	  
-      :ref:`Plot ModeShape <plotmodepy>` for Python version added. Date: 11/10/2023
-	  
-      :ref:`Plot AnimeGif <plotanimegifpy>` for Python version added. Date: 11/10/2023
-
-      :ref:`Plot Animation <plotanimepy>` for Python version added. Date: 11/09/2023
-      
-      :ref:`Plot Deformation <plotdefopy>` for Python version added. Date: 11/02/2023
+      :ref:`Python Version <pythonversion>` Documentation now is complete. Date: 11/12/2023
 
 
    .. grid-item-card:: Python Version
@@ -67,6 +61,7 @@ Welcome to BraineryWiz's documentation!
    Python Version <Python_Version/index>
    TCL Version <TCL_Version/index>
    FEM Version <FEM_Wiz/index>
+   Updates History & News <updateshist>
 
 Send us any bug if you encounter with and also any requirement if you need to be considered in plots.
 
