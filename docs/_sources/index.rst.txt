@@ -27,6 +27,8 @@ Welcome to BraineryWiz's documentation!
       :link-type: ref
       :link-alt: Updates History and News
 	  
+      :ref:`PlotDefo command <plotdefotcl>` for TCL version added. Date: 11/18/2023
+	  
       :ref:`PlotModel command <plotmodeltcl>` for TCL version added. Date: 11/17/2023
 	  
       :ref:`Installation <installationTCL>` for TCL version added. Date: 11/16/2023
