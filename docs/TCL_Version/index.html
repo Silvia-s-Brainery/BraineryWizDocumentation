@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 
 
@@ -28,18 +29,18 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
   <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
-    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/index';</script>
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -413,6 +414,19 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="plotdefo/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
 </ul>
 </li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot ModeShape)</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/ScaleFactor.html">ScaleFactor Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/NotDrawWireShadow.html">NotDrawWireShadow Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/PlotLegend.html">PlotLegend Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/OnHover.html">OnHover Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodeshape/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </nav></div>
@@ -468,7 +482,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="brainerywiz-tcl-version-documentation">
-<span id="tcl-version"></span><h1>BraineryWiz TCL Version Documentation<a class="headerlink" href="#brainerywiz-tcl-version-documentation" title="Link to this heading">#</a></h1>
+<span id="tcl-version"></span><h1>BraineryWiz TCL Version Documentation<a class="headerlink" href="#brainerywiz-tcl-version-documentation" title="Permalink to this heading">#</a></h1>
 <p>TCL <strong>BraineryWiz</strong> is package for plotting OpenSees models and also finite element models and is basically is independent of the element. In this document you will find out the way of installation and usage of BraineryWiz TCL package for plotting OpenSees models that are provided using TCL coding.
 BraineryWiz is using an element independent approach that do not need to know the type of elements to plot them. So, it makes this package more powerful to plot any type of element without any need of defining them. Also, this package uses GPU to create more fluent and faster. This package is under develop and users using following addresses can find out the latest updates and new features.</p>
 <div class="toctree-wrapper compound">
@@ -478,6 +492,7 @@ BraineryWiz is using an element independent approach that do not need to know th
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotmodel.html">PlotModel Command (Plot Model)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotdefo.html">PlotDefo Command (Plot Deformation)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotmodeshape.html">PlotModeShape Command (Plot ModeShape)</a></li>
 </ul>
 </div>
 </section>
@@ -547,7 +562,7 @@ BraineryWiz is using an element independent approach that do not need to know th
       
         <div class="footer-item">
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 6.2.0.
     <br/>
   </p>
 </div>

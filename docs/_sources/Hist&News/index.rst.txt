@@ -13,6 +13,8 @@ Updates History and News
    .. grid-item-card:: Updates History
       :columns: 12
 	  
+      :ref:`PlotModeShape command <plotmodetcl>` for TCL version added. Date: 11/19/2023
+	  
       :ref:`PlotDefo command <plotdefotcl>` for TCL version added. Date: 11/18/2023
 	  
       :ref:`PlotModel command <plotmodeltcl>` for TCL version added. Date: 11/17/2023

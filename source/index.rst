@@ -27,13 +27,13 @@ Welcome to BraineryWiz's documentation!
       :link-type: ref
       :link-alt: Updates History and News
 	  
+      :ref:`PlotModeShape command <plotmodetcl>` for TCL version added. Date: 11/19/2023
+	  
       :ref:`PlotDefo command <plotdefotcl>` for TCL version added. Date: 11/18/2023
 	  
       :ref:`PlotModel command <plotmodeltcl>` for TCL version added. Date: 11/17/2023
 	  
       :ref:`Installation <installationTCL>` for TCL version added. Date: 11/16/2023
-	  
-      :ref:`Python Version <pythonversion>` Documentation now is complete. Date: 11/12/2023
 
 
    .. grid-item-card:: Python Version

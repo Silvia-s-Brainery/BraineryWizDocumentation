@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 
 
@@ -28,23 +29,23 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=365ca57ee442770a23c6" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=365ca57ee442770a23c6" />
   <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=365ca57ee442770a23c6"></script>
 
-    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
-    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/installation';</script>
     <link rel="icon" href="../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="BraineryWiz FEM Version Documentation" href="../FEM_Wiz/index.html" />
+    <link rel="next" title="PlotModel Command (Plot Model)" href="plotmodel.html" />
     <link rel="prev" title="BraineryWiz TCL Version Documentation" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -390,6 +391,29 @@ document.write(`
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="index.html">BraineryWiz TCL Version Documentation</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="plotmodel.html">PlotModel Command (Plot Model)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/OnHover.html">OnHover Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotmodel/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="plotdefo.html">PlotDefo Command (Plot Deformation)</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/ScaleFactor.html">ScaleFactor Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/NotDrawWireShadow.html">NotDrawWireShadow Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/PlotLegend.html">PlotLegend Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/OnHover.html">OnHover Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotdefo/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </nav></div>
@@ -448,7 +472,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="installation">
-<span id="installationtcl"></span><h1>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h1>
+<span id="installationtcl"></span><h1>Installation<a class="headerlink" href="#installation" title="Permalink to this heading">#</a></h1>
 <p>TCL BraineryWiz consist of two files as mentioned in <strong>the following and should be download at first step:</strong></p>
 <blockquote>
 <div><ul class="simple">
@@ -470,7 +494,7 @@ document.write(`
 </ol>
 </div></blockquote>
 <div class="literal-block-wrapper docutils container" id="id1">
-<div class="code-block-caption"><span class="caption-text">Example of how to call BraineryWiz.tcl</span><a class="headerlink" href="#id1" title="Link to this code">#</a></div>
+<div class="code-block-caption"><span class="caption-text">Example of how to call BraineryWiz.tcl</span><a class="headerlink" href="#id1" title="Permalink to this code">#</a></div>
 <div class="highlight-tcl notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>BraineryWiz.tcl
 
 <span class="c"># ...</span>
@@ -503,11 +527,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="../FEM_Wiz/index.html"
+       href="plotmodel.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">BraineryWiz FEM Version Documentation</p>
+        <p class="prev-next-title">PlotModel Command (Plot Model)</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -548,7 +572,7 @@ document.write(`
       
         <div class="footer-item">
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 6.2.0.
     <br/>
   </p>
 </div>
