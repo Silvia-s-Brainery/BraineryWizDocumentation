@@ -77,7 +77,7 @@ html_theme_options = {
         },
     ],
     "header_links_before_dropdown": 6,
-    "announcement": """The latest Released version: 0.91 - Email Address: <a href = 'mailto: BraineryWiz@Gmail.com'>BraineryWiz@Gmail.com</a>.""",
+    "announcement": """The latest Released version: 0.92 - Email Address: <a href = 'mailto: BraineryWiz@Gmail.com'>BraineryWiz@Gmail.com</a>.""",
     "logo": {
         "text": "BraineryWiz",
         "image_light": "_static/BraineryWizLogo.png",

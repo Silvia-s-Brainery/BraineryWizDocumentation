@@ -13,6 +13,8 @@ Updates History and News
    .. grid-item-card:: Updates History
       :columns: 12
 	  
+	  BraineryWiz **Version 0.92** for Python users Released. Now in This version BraineryWiz activated for :ref:`Anaconda <installation>` users.
+	  
       :ref:`PlotAnime command <plotanimetcl>` for TCL version added. Date: 11/20/2023
 	  
       :ref:`PlotModeShape command <plotmodetcl>` for TCL version added. Date: 11/19/2023

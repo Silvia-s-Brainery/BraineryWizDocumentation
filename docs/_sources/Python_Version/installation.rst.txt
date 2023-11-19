@@ -9,7 +9,7 @@ BraineryWiz can be installed using pip as shown in the following:
 
     pip install BraineryWiz
 
-After instalation import the BraineryWiz library into your code as shown in the following:
+Windows users use above command in command prompt (cmd) and Anaconda users use it in Anaconda Prompt. After instalation import the BraineryWiz library into your code as shown in the following:
 
 .. code-block:: python
 
@@ -17,5 +17,5 @@ After instalation import the BraineryWiz library into your code as shown in the 
 	
 .. note::
 
-    Currently BraineryWiz does not work on Anaconda and also on Linux. Sorry fo that. Soon we will solve the problem and make it accessible in the mentioned platform and system.
+    Currently BraineryWiz does not work on Linux. Sorry fo that. Soon we will solve the problem and make it accessible in the mentioned system.
 	

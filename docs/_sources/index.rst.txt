@@ -26,14 +26,14 @@ Welcome to BraineryWiz's documentation!
       :link: updateshist
       :link-type: ref
       :link-alt: Updates History and News
+	  
+	  BraineryWiz **Version 0.92** for Python users Released. Now in This version BraineryWiz activated for :ref:`Anaconda <installation>` users.
 
       :ref:`PlotAnime command <plotanimetcl>` for TCL version added. Date: 11/20/2023
 	  
       :ref:`PlotModeShape command <plotmodetcl>` for TCL version added. Date: 11/19/2023
 	  
       :ref:`PlotDefo command <plotdefotcl>` for TCL version added. Date: 11/18/2023
-	  
-      :ref:`PlotModel command <plotmodeltcl>` for TCL version added. Date: 11/17/2023
 
 
    .. grid-item-card:: Python Version
