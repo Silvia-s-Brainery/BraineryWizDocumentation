@@ -14,6 +14,6 @@ BraineryWiz is using an element independent approach that do not need to know th
    plotmodel
    plotdefo
    plotmodeshape
-..   realtime
    plotanime
+..   realtime
    plotanimegif
