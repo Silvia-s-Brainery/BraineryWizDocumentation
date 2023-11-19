@@ -27,7 +27,7 @@ Welcome to BraineryWiz's documentation!
       :link-type: ref
       :link-alt: Updates History and News
 	  
-	  BraineryWiz **Version 0.92** for Python users Released. Now in This version BraineryWiz activated for :ref:`Anaconda <installation>` users.
+      BraineryWiz **Version 0.92** for Python users Released. Now in This version BraineryWiz activated for :ref:`Anaconda <installation>` users.
 
       :ref:`PlotAnime command <plotanimetcl>` for TCL version added. Date: 11/20/2023
 	  
