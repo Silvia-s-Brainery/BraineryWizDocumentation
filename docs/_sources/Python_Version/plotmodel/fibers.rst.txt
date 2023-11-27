@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, plot_fibers=True)
+   bz.PlotModel(plotmode=1, plot_fibers=True)
 
 .. raw:: html
        :file: files/fibers.html

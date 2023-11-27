@@ -17,7 +17,7 @@ Examples
    # ...
    
    # Call PlotModel command 
-   bz.PlotDefo(plotmode=3,scale_factor=2)
+   bz.PlotDefo(plotmode=1,scale_factor=2)
 
 .. raw:: html
        :file: files/scf2.html
@@ -32,7 +32,7 @@ Examples
    # ...
    
    # Call PlotModel command 
-   bz.PlotDefo(plotmode=3,scale_factor=10)
+   bz.PlotDefo(plotmode=1,scale_factor=10)
 
 .. raw:: html
        :file: files/scf10.html

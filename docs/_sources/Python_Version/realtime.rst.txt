@@ -22,7 +22,7 @@ Using this command users be able to plot the model and watch the deformation of 
    
    numberOfSteps=100                       #Imagine the number of steps that want to be recorded are 100 steps
    
-   bz.RealTimeObj(plotmode=3, **kwargs)    #Create the Plot
+   bz.RealTimeObj(plotmode=1, **kwargs)    #Create the Plot
    
    for i in range(numberOfSteps):
       
@@ -54,6 +54,10 @@ RealTimeObj command options
    realtime/legends
    realtime/verticalaxis
    realtime/RetainedConstrained
+   realtime/nodessize
+   realtime/nodescolor
+   realtime/elecolor
+   realtime/elesize
    
 RealTimeUpdate command options
 ------------------------------

@@ -17,7 +17,7 @@ Examples
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, draw_wire_shadow=False)
+   bz.PlotModel(plotmode=1, draw_wire_shadow=False)
 
 .. raw:: html
        :file: files/wirefalse.html

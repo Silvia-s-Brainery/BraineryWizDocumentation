@@ -8,7 +8,7 @@ PlotDefo is the command that should be used to plot the deformed model (At the c
 .. code-block:: python
    :caption: The structure of the command
    
-   PlotDefo (plotmode=3, **kwargs)
+   PlotDefo (plotmode=1, **kwargs)
 	
 * plotmode
    For different python editors there is a need to consider some settings to plot the figure. There are different modes to plot figures and if your editor does not show the figure change the number of the mode! (1,2,3,4,5,6)
@@ -34,3 +34,7 @@ PlotDefo is the command that should be used to plot the deformed model (At the c
    plotdefo/legends
    plotdefo/verticalaxis
    plotdefo/RetainedConstrained
+   plotdefo/nodessize
+   plotdefo/nodescolor
+   plotdefo/elecolor
+   plotdefo/elesize

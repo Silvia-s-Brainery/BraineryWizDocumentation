@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, nodes_data_tag=[i+1 for i in range(100)], nodes_data=[f'My data on the element {i+1}' for i in range(100)], onhover_message=True)
+   bz.PlotModel(plotmode=1, nodes_data_tag=[i+1 for i in range(100)], nodes_data=[f'My data on the element {i+1}' for i in range(100)], onhover_message=True)
 
 .. raw:: html
        :file: files/Nodesdata.html

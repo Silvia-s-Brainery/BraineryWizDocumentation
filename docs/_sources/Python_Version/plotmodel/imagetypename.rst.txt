@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, image_type='jpeg', image_filename='NewFile' )
+   bz.PlotModel(plotmode=1, image_type='jpeg', image_filename='NewFile' )
 
 .. raw:: html
        :file: files/image.html

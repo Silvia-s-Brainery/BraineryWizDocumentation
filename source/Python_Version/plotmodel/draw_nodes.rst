@@ -17,7 +17,7 @@ Examples
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, draw_nodes=True)
+   bz.PlotModel(plotmode=1, draw_nodes=True)
 
 .. raw:: html
        :file: files/DrawNodesTrue.html
@@ -32,7 +32,7 @@ Examples
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, draw_nodes=False)
+   bz.PlotModel(plotmode=1, draw_nodes=False)
 
 .. raw:: html
        :file: files/DrawNodesFalse.html

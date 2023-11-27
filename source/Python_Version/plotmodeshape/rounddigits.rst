@@ -14,4 +14,4 @@ Determines the number of digits after dot to round and prevent of showing long n
    # ...
    
    # Call PlotModeShape command 
-   bz.PlotModeShape(plotmode=3, round_digit=3)
+   bz.PlotModeShape(plotmode=1, round_digit=3)

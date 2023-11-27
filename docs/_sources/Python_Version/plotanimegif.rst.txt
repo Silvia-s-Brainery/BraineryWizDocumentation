@@ -58,6 +58,10 @@ PlotAnimeGif command options
    plotanimegif/verticalaxis
    plotanimegif/RetainedConstrained
    plotanimegif/recorderfilename
+   plotanimegif/nodessize
+   plotanimegif/nodescolor
+   plotanimegif/elecolor
+   plotanimegif/elesize
 
 .. toctree::
    :maxdepth: 1

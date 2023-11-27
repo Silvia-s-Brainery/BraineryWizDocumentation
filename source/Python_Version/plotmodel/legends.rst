@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, plot_legends=True)
+   bz.PlotModel(plotmode=1, plot_legends=True)
 
 .. raw:: html
        :file: files/legends.html

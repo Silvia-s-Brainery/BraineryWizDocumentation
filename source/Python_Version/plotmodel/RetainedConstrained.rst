@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, show_constrained=True, constrained_size=6)
+   bz.PlotModel(plotmode=1, show_constrained=True, constrained_size=6)
    
 .. raw:: html
        :file: files/retained.html

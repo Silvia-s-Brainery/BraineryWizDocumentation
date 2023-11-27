@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, quivers_size=0.002)
+   bz.PlotModel(plotmode=1, quivers_size=0.002)
 
 .. raw:: html
        :file: files/quiver.html

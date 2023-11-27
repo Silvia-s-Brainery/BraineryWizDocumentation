@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, plot_integration_points=True)
+   bz.PlotModel(plotmode=1, plot_integration_points=True)
 
 .. raw:: html
        :file: files/IntegratePoints.html

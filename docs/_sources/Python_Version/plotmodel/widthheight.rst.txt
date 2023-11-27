@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, fig_width=600, fig_height=600)
+   bz.PlotModel(plotmode=1, fig_width=600, fig_height=600)
 
 .. raw:: html
        :file: files/widthheight.html

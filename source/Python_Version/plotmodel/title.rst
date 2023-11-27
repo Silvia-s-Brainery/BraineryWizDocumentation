@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, title='New Title')
+   bz.PlotModel(plotmode=1, title='New Title')
 
 .. raw:: html
        :file: files/title.html

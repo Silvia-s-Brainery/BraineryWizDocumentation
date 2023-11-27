@@ -14,4 +14,4 @@ A digit the determines the number of desired mode to be plotted.
    # ...
    
    # Call PlotModeShape command for plotting mode number 3
-   bz.PlotModeShape(plotmode=3, mode_number=3)
+   bz.PlotModeShape(plotmode=1, mode_number=3)

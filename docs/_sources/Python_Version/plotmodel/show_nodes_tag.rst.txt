@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, show_nodes_tag=True)
+   bz.PlotModel(plotmode=1, show_nodes_tag=True)
 
 .. raw:: html
        :file: files/ShowNodesTag.html

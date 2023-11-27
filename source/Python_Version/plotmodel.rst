@@ -8,7 +8,7 @@ PlotModel is the command that should be used to plot the model.
 .. code-block:: python
    :caption: The structure of the command
    
-   PlotModel (plotmode=3, **kwargs)
+   PlotModel (plotmode=1, **kwargs)
 	
 * plotmode
    For different python editors there is a need to consider some settings to plot the figure. There are different modes to plot figures and if your editor does not show the figure change the number of the mode! (1,2,3,4,5,6)
@@ -35,3 +35,7 @@ PlotModel is the command that should be used to plot the model.
    plotmodel/legends
    plotmodel/verticalaxis
    plotmodel/RetainedConstrained
+   plotmodel/nodessize
+   plotmodel/nodescolor
+   plotmodel/elecolor
+   plotmodel/elesize

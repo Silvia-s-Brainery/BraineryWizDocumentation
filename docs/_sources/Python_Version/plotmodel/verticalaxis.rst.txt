@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, vertical_axis=2)
+   bz.PlotModel(plotmode=1, vertical_axis=2)
 
 .. raw:: html
        :file: files/vertical.html

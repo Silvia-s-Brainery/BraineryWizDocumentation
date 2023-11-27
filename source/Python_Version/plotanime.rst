@@ -25,7 +25,7 @@ PlotAnime is the command that should be used to show **an animation** of **recor
 	bz.Record()         #Record the analyzed step
    
    
-   bz.PlotAnime (plotmode=3, dt=0.01, **kwargs) #Show animation of the recorded steps
+   bz.PlotAnime (plotmode=1, dt=0.01, **kwargs) #Show animation of the recorded steps
 
    
 Click on **Pause** botton and then click on **Play** button on the below animation to watch the created animation as a sample.
@@ -66,6 +66,10 @@ PlotAnime command options
    plotanime/verticalaxis
    plotanime/RetainedConstrained
    plotanime/recorderfilename
+   plotanime/nodessize
+   plotanime/nodescolor
+   plotanime/elecolor
+   plotanime/elesize
 
 .. toctree::
    :maxdepth: 1

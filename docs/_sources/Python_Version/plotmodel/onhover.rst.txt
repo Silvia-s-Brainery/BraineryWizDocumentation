@@ -17,7 +17,7 @@ Example
    # ...
    
    # Call PlotModel command 
-   bz.PlotModel(plotmode=3, onhover_message=True)
+   bz.PlotModel(plotmode=1, onhover_message=True)
 
 .. raw:: html
        :file: files/OnHover.html

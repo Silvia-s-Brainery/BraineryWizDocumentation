@@ -16,3 +16,4 @@ Python **BraineryWiz** is a package for plotting OpenSees models and basically i
    realtime
    plotanime
    plotanimegif
+   colors
