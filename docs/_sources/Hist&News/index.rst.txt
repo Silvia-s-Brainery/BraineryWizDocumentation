@@ -13,6 +13,8 @@ Updates History and News
    .. grid-item-card:: Updates History
       :columns: 12
 	  
+      BraineryWiz **Version 0.93** for Python users Released.
+	  
       :ref:`Elements Width <plotmodelelesizepy>` option added for all commands of Python version. Date: 11/28/2023
 	  
       :ref:`Elements Color <plotmodelelecolorpy>` option added for all commands of Python version. Date: 11/28/2023

@@ -27,6 +27,8 @@ Welcome to BraineryWiz's documentation!
       :link-type: ref
       :link-alt: Updates History and News
 	  
+      BraineryWiz **Version 0.93** for Python users Released.
+	  
       :ref:`Elements Width <plotmodelelesizepy>` option added for all commands of Python version. Date: 11/28/2023
 	  
       :ref:`Elements Color <plotmodelelecolorpy>` option added for all commands of Python version. Date: 11/28/2023
@@ -34,9 +36,6 @@ Welcome to BraineryWiz's documentation!
       :ref:`Nodes Size <plotmodelnodesizepy>` option added for all commands of Python version. Date: 11/28/2023
 	  
       :ref:`Nodes Color <plotmodelnodecolorpy>` option added for all commands of Python version. Date: 11/28/2023
-	  
-      BraineryWiz **Version 0.92** for Python users Released. Now in This version BraineryWiz activated for :ref:`Anaconda <installation>` users.
-
 
    .. grid-item-card:: Python Version
       :link: pythonversion
