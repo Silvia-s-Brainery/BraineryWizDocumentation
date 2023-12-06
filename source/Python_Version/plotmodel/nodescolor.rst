@@ -22,6 +22,22 @@ Example
 .. raw:: html
        :file: files/NodesColor.html
 	   
+.. tip::
+   
+   To assign one color to all nodes, do not fill **Nodes_color_tag** with anything and abandon it, then set **Nodes_color** equal to the desired color in string (str) format.
+   
+   .. code-block:: python
+      :caption: Example for setting all nodes color to red
+      
+      import BraineryWiz as bz
+      
+      # ...
+      # Create the OpenSees model
+      # ...
+      
+      # Call PlotModel command 
+      bz.PlotModel(plotmode=1, Nodes_color='red')  
+	   
 .. note::
 
    It is obvious that length of Nodes_color_tag and Nodes_color should be same, otherwise an error message will be appear and color of nodes won't change.

@@ -25,6 +25,22 @@ Example
 .. raw:: html
        :file: files/ElementsColor.html
 	   
+.. tip::
+   
+   To assign one color to all elements, do not fill **Element_color_tag** with anything and abandon it, then set **Elements_color** equal to the desired color in string (str) format.
+   
+   .. code-block:: python
+      :caption: Example for setting all elements color to red
+      
+      import BraineryWiz as bz
+      
+      # ...
+      # Create the OpenSees model
+      # ...
+      
+      # Call PlotModel command 
+      bz.PlotModel(plotmode=1, Elements_color='red')   
+	   
 .. note::
 
    It is obvious that length of Element_color_tag and Elements_color should be same, otherwise an error message will be appear and size of nodes won't change.
