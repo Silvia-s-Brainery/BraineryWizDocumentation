@@ -21,7 +21,7 @@ Windows users use above command in command prompt (cmd) and Anaconda users use i
 
 .. note::
 
-   **Python version 3.11.5** highly recommended for latest version. **If you are not using Anaconda** and you prefer to use python older versions and you encounter with problem for importing BraineryWiz, try older version of BraineryWiz:
+   BraineryWiz now has been compiled for multiple versions of Python. Currently **Python version 3.11.5** and **Python version 3.10.4** highly recommended for latest version and BraineryWiz is compatible for both of them. **If you are not using Anaconda** and you prefer to use python older versions and you encounter with problem for importing BraineryWiz, you can try older versions of BraineryWiz:
 	
    .. code-block:: bash
 
