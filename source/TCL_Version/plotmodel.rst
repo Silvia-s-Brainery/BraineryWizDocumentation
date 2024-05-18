@@ -25,3 +25,4 @@ In the following the existing options for this command are described. User can u
    plotmodel/title
    plotmodel/VerticalAxis_i
    plotmodel/RetainedConstrained
+   plotmodel/PlotLegend
