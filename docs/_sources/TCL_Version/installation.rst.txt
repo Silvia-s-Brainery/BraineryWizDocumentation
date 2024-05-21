@@ -5,12 +5,12 @@ Installation
 
 TCL BraineryWiz consist of two files as mentioned in **the following and should be download at first step:**
 
-	* :download:`BraineryWiz.exe <https://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.exe>`
+	* :download:`BraineryWiz.exe <https://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.zip>`
 	* :download:`BraineryWiz.tcl <https://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.tcl>`
 	
 After downloading above files, now **the following steps should be done to install** it and make it ready to use:
 
-   #. Move the downloaded BraineryWiz.exe to the folder that OpenSees.exe located (The folder should be in PATH of the system). BraineryWiz.exe should be located beside the OpenSees.exe But if you are using OpenSees.exe localy beside your .tcl files then you have you put BraineryWiz.exe beside the .tcl file.
+   #. Move the downloaded BraineryWiz.zip to the folder that OpenSees.exe located (The folder should be in PATH of the system). Then Extract it till BraineryWiz.exe and _internal folder appear. BraineryWiz.exe and _internal folder should be located beside the OpenSees.exe But if you are using OpenSees.exe localy beside your .tcl files then you have you put BraineryWiz.exe and _internal folder beside the .tcl file.
    
       .. tip::
    
