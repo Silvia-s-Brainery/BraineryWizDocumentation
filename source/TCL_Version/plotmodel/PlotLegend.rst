@@ -16,8 +16,8 @@ Example
    # lines of Creating OpenSees model
    # ...
    
-   # Call PlotDefo command 
-   PlotDefo PlotLegend
+   # Call PlotModel command 
+   PlotModel PlotLegend
 
 Watch resulted plot :ref:`here <plotmodellegendpy>`.
 

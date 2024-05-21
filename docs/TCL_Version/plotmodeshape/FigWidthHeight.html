@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>PlotLegend Option &#8212; BraineryWiz  documentation</title>
+    <title>FigWidth and FigHeight Options &#8212; BraineryWiz  documentation</title>
   
   
   
@@ -40,11 +40,11 @@
     <script src="../../_static/doctools.js?v=888ff710"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../../_static/design-tabs.js?v=36754332"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/plotmodel/PlotLegend';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'TCL_Version/plotmodeshape/FigWidthHeight';</script>
     <link rel="icon" href="../../_static/BraineryWizico.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="QuiversSize Option" href="QuiversSize.html" />
+    <link rel="next" title="PlotAnime Command (Plot Animation)" href="../plotanime.html" />
     <link rel="prev" title="ShowConstrained and ConstrainedSize Options" href="RetainedConstrained.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -388,16 +388,17 @@ document.write(`
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../index.html">BraineryWiz TCL Version Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../plotmodel.html">PlotModel Command (Plot Model)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="DrawNodesOff.html">DrawNodesOff Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ShowNodeTag.html">ShowNodeTag Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ShowEleTag.html">ShowEleTag Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="OnHover.html">OnHover Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html">title Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="VerticalAxis_i.html">VerticalAxis_i Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">PlotLegend Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="QuiversSize.html">QuiversSize Option</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../plotmodel.html">PlotModel Command (Plot Model)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/OnHover.html">OnHover Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/PlotLegend.html">PlotLegend Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/QuiversSize.html">QuiversSize Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotmodel/FigWidthHeight.html">FigWidth and FigHeight Options</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../plotdefo.html">PlotDefo Command (Plot Deformation)</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -411,19 +412,21 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="../plotdefo/title.html">title Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../plotdefo/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../plotdefo/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotdefo/FigWidthHeight.html">FigWidth and FigHeight Option</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../plotmodeshape.html">PlotModeShape Command (Plot ModeShape)</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/ScaleFactor.html">ScaleFactor Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/NotDrawWireShadow.html">NotDrawWireShadow Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/PlotLegend.html">PlotLegend Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/DrawNodesOff.html">DrawNodesOff Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/ShowNodeTag.html">ShowNodeTag Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/ShowEleTag.html">ShowEleTag Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/OnHover.html">OnHover Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/title.html">title Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../plotmodeshape/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../plotmodeshape.html">PlotModeShape Command (Plot ModeShape)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ScaleFactor.html">ScaleFactor Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NotDrawWireShadow.html">NotDrawWireShadow Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PlotLegend.html">PlotLegend Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DrawNodesOff.html">DrawNodesOff Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ShowNodeTag.html">ShowNodeTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ShowEleTag.html">ShowEleTag Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OnHover.html">OnHover Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="title.html">title Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VerticalAxis_i.html">VerticalAxis_i Option</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">FigWidth and FigHeight Options</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../plotanime.html">PlotAnime Command (Plot Animation)</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -437,6 +440,7 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="../plotanime/title.html">title Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../plotanime/VerticalAxis_i.html">VerticalAxis_i Option</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../plotanime/RetainedConstrained.html">ShowConstrained and ConstrainedSize Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotanime/FigWidthHeight.html">FigWidth and FigHeight Options</a></li>
 </ul>
 </li>
 </ul>
@@ -480,9 +484,9 @@ document.write(`
     <li class="breadcrumb-item"><a href="../index.html" class="nav-link">BraineryWiz TCL Version Documentation</a></li>
     
     
-    <li class="breadcrumb-item"><a href="../plotmodel.html" class="nav-link">PlotModel Command (Plot Model)</a></li>
+    <li class="breadcrumb-item"><a href="../plotmodeshape.html" class="nav-link">PlotModeShape Command (Plot ModeShape)</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page">PlotLegend Option</li>
+    <li class="breadcrumb-item active" aria-current="page">FigWidth...</li>
   </ul>
 </nav>
 </div>
@@ -499,25 +503,25 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="plotlegend-option">
-<span id="plotmodellegendtcl"></span><h1>PlotLegend Option<a class="headerlink" href="#plotlegend-option" title="Link to this heading">#</a></h1>
-<p>By calling this option, a legend of elements type appears on the top right corner of the polt and each element type can be turned on or off.</p>
+  <section id="figwidth-and-figheight-options">
+<span id="plotmodewidthheighttcl"></span><h1>FigWidth and FigHeight Options<a class="headerlink" href="#figwidth-and-figheight-options" title="Link to this heading">#</a></h1>
+<p>Using these options the dimension of the plot can be determined. (Default: FigWidth=1000 and FigHeight=800)</p>
 <section id="example">
 <h2>Example<a class="headerlink" href="#example" title="Link to this heading">#</a></h2>
 <div class="literal-block-wrapper docutils container" id="id1">
-<div class="code-block-caption"><span class="caption-text">Example with PlotLegend</span><a class="headerlink" href="#id1" title="Link to this code">#</a></div>
+<div class="code-block-caption"><span class="caption-text">Example with FigWidth=600 and FigHeight=600</span><a class="headerlink" href="#id1" title="Link to this code">#</a></div>
 <div class="highlight-tcl notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span>BraineryWiz.tcl
 
 <span class="c"># ...</span>
 <span class="c"># lines of Creating OpenSees model</span>
 <span class="c"># ...</span>
 
-<span class="c"># Call PlotModel command</span>
-<span class="nv">PlotModel</span><span class="w"> </span>PlotLegend
+<span class="c"># Call PlotModeShape command</span>
+<span class="nv">PlotModeShape</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span>FigWidth<span class="w"> </span><span class="mi">600</span><span class="w"> </span>FigHeight<span class="w"> </span><span class="mi">600</span>
 </pre></div>
 </div>
 </div>
-<p>Watch resulted plot <a class="reference internal" href="../../Python_Version/plotmodel/legends.html#plotmodellegendpy"><span class="std std-ref">here</span></a>.</p>
+<p>Watch resulted plot <a class="reference internal" href="../../Python_Version/plotmodel/widthheight.html#plotmodelwidthheightpy"><span class="std std-ref">here</span></a>.</p>
 </section>
 </section>
 
@@ -541,11 +545,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="QuiversSize.html"
+       href="../plotanime.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">QuiversSize Option</p>
+        <p class="prev-next-title">PlotAnime Command (Plot Animation)</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

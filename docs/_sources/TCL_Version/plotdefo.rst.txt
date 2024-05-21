@@ -28,3 +28,4 @@ In the following the existing options for this command are described. User can u
    plotdefo/title
    plotdefo/VerticalAxis_i
    plotdefo/RetainedConstrained
+   plotdefo/FigWidthHeight

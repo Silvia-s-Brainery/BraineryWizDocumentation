@@ -26,20 +26,16 @@ Welcome to BraineryWiz's documentation!
       :link: updateshist
       :link-type: ref
       :link-alt: Updates History and News
+	  
+      :ref:`QuiversSize <plotmodelquivertcl>` option added for TCL version for plotting local axis. Date: 5/22/2024
+	  
+      :ref:`FigWidth and FigHeight <plotmodelwidthheighttcl>` options added for TCL version. Date: 5/22/2024
       
       BraineryWiz **Version 0.94** for Python users Released. Date: 12/17/2023
       
       BraineryWiz Python version now is available for multiple :ref:`Python versions <installation>`. Date: 12/17/2023
        
       BraineryWiz **Version 0.93** for Python users Released. Date: 11/29/2023
-	  
-      :ref:`Elements Width <plotmodelelesizepy>` option added for all commands of Python version. Date: 11/28/2023
-	  
-      :ref:`Elements Color <plotmodelelecolorpy>` option added for all commands of Python version. Date: 11/28/2023
-	  
-      :ref:`Nodes Size <plotmodelnodesizepy>` option added for all commands of Python version. Date: 11/28/2023
-	  
-      :ref:`Nodes Color <plotmodelnodecolorpy>` option added for all commands of Python version. Date: 11/28/2023
 
    .. grid-item-card:: Python Version
       :link: pythonversion

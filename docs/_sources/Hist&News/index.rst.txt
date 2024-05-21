@@ -12,6 +12,10 @@ Updates History and News
 
    .. grid-item-card:: Updates History
       :columns: 12
+	  
+      :ref:`QuiversSize <plotmodelquivertcl>` option added for TCL version for plotting local axis. Date: 5/22/2024
+	  
+      :ref:`FigWidth and FigHeight <plotmodelwidthheighttcl>` options added for TCL version. Date: 5/22/2024
       
       BraineryWiz **Version 0.94** for Python users Released. Date: 12/17/2023
       

@@ -5,8 +5,8 @@ Installation
 
 TCL BraineryWiz consist of two files as mentioned in **the following and should be download at first step:**
 
-	* :download:`BraineryWiz.exe <http://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.exe>`
-	* :download:`BraineryWiz.tcl <http://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.tcl>`
+	* :download:`BraineryWiz.exe <https://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.exe>`
+	* :download:`BraineryWiz.tcl <https://www.bijansayyafzadeh.com/OpenSees/BraineryWizTCL/BraineryWiz.tcl>`
 	
 After downloading above files, now **the following steps should be done to install** it and make it ready to use:
 

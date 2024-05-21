@@ -26,3 +26,6 @@ In the following the existing options for this command are described. User can u
    plotmodel/VerticalAxis_i
    plotmodel/RetainedConstrained
    plotmodel/PlotLegend
+   plotmodel/QuiversSize
+   plotmodel/FigWidthHeight
+   
