@@ -44,7 +44,7 @@ Welcome to BraineryWiz's documentation!
 
       In this part you will get the documentation of the Python version of BraineryWiz to plot OpenSees models and the description of commands has been presented.
 
-   .. grid-item-card:: TCL Version (under construction)
+   .. grid-item-card:: TCL Version (OpenSees 3.6.0 - under construction)
       :link: tcl-version
       :link-type: ref
       :link-alt: TCL Version
