@@ -28,4 +28,5 @@ In the following the existing options for this command are described. User can u
    plotmodel/PlotLegend
    plotmodel/QuiversSize
    plotmodel/FigWidthHeight
+   plotmodel/SupportSize
    

@@ -33,3 +33,4 @@ In the following the existing options for this command are described. User can u
    plotmodeshape/VerticalAxis_i
    plotmodeshape/RetainedConstrained
    plotmodeshape/FigWidthHeight
+   plotmodeshape/SupportSize

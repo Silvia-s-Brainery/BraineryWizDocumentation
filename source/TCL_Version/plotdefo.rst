@@ -29,3 +29,4 @@ In the following the existing options for this command are described. User can u
    plotdefo/VerticalAxis_i
    plotdefo/RetainedConstrained
    plotdefo/FigWidthHeight
+   plotdefo/SupportSize
