@@ -62,6 +62,7 @@ PlotAnimeGif command options
    plotanimegif/nodescolor
    plotanimegif/elecolor
    plotanimegif/elesize
+   plotanimegif/supports_size
 
 .. toctree::
    :maxdepth: 1

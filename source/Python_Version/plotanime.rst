@@ -70,6 +70,7 @@ PlotAnime command options
    plotanime/nodescolor
    plotanime/elecolor
    plotanime/elesize
+   plotanime/supports_size
 
 .. toctree::
    :maxdepth: 1

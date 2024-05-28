@@ -38,3 +38,4 @@ PlotDefo is the command that should be used to plot the deformed model (At the c
    plotdefo/nodescolor
    plotdefo/elecolor
    plotdefo/elesize
+   plotdefo/supports_size

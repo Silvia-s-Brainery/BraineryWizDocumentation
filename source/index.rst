@@ -27,6 +27,8 @@ Welcome to BraineryWiz's documentation!
       :link-type: ref
       :link-alt: Updates History and News
 	  
+      :ref:`Supports <plotmodelsupportssizepy>` can now be plotted for Python. Not only for PlotModel and also now is available for `PlotAnime <_plotanimsupportssizepy>` and `PlotDefo <plotdefosupportssizepy>` and `PlotModeShape <plotmodsupportssizepy>` and `RealTime <plotrealsupportssizepy>`. Date: 5/27/2024
+	  
       :ref:`BraineryWiz for TCL <installationTCL>` New Version Released (OpenSees 3.6.0). Date: 5/22/2024
 	  
       :ref:`QuiversSize <plotmodelquivertcl>` option added for TCL version for plotting local axis. Date: 5/22/2024

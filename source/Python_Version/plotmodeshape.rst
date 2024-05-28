@@ -40,3 +40,4 @@ PlotModeShape command is for plotting one of the modeshapes of the model. This c
    plotmodeshape/nodescolor
    plotmodeshape/elecolor
    plotmodeshape/elesize
+   plotmodeshape/supports_size

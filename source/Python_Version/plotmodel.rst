@@ -39,3 +39,4 @@ PlotModel is the command that should be used to plot the model.
    plotmodel/nodescolor
    plotmodel/elecolor
    plotmodel/elesize
+   plotmodel/supports_size

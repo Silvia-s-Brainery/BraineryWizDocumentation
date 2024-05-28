@@ -58,6 +58,7 @@ RealTimeObj command options
    realtime/nodescolor
    realtime/elecolor
    realtime/elesize
+   realtime/supports_size
    
 RealTimeUpdate command options
 ------------------------------
