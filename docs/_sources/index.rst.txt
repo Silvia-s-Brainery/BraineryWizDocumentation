@@ -26,7 +26,9 @@ Welcome to BraineryWiz's documentation!
       :link: updateshist
       :link-type: ref
       :link-alt: Updates History and News
-	  
+
+      :ref:`Supports <plotmodelsupportstcl>` can now be plotted for TCL. Not only for PlotModel and also now is available for :ref:`PlotAnime <plotanimesupportsftcl>` and :ref:`PlotDefo <plotdefosupportstcl>` and :ref:`PlotModeShape <plotmodesupportstcl>`. Date: 5/27/2024
+      
       :ref:`Supports <plotmodelsupportssizepy>` can now be plotted for Python. Not only for PlotModel and also now is available for :ref:`PlotAnime <plotanimsupportssizepy>` and :ref:`PlotDefo <plotdefosupportssizepy>` and :ref:`PlotModeShape <plotmodsupportssizepy>` and :ref:`RealTime <plotrealsupportssizepy>`. Date: 5/27/2024
 	  
       :ref:`BraineryWiz for TCL <installationTCL>` New Version Released (OpenSees 3.6.0). Date: 5/22/2024
