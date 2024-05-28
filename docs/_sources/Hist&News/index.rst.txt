@@ -13,6 +13,8 @@ Updates History and News
    .. grid-item-card:: Updates History
       :columns: 12
 	  
+      :ref:`Supports <plotmodelsupportssizepy>` can now be plotted for Python. Not only for PlotModel and also now is available for :ref:`PlotAnime <plotanimsupportssizepy>` and :ref:`PlotDefo <plotdefosupportssizepy>` and :ref:`PlotModeShape <plotmodsupportssizepy>` and :ref:`RealTime <plotrealsupportssizepy>`. Date: 5/27/2024
+	  
       :ref:`BraineryWiz for TCL <installationTCL>` New Version Released (OpenSees 3.6.0). Date: 5/22/2024
 	  
       :ref:`QuiversSize <plotmodelquivertcl>` option added for TCL version for plotting local axis. Date: 5/22/2024
