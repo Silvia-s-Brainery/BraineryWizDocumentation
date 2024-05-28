@@ -37,11 +37,6 @@ Welcome to BraineryWiz's documentation!
 	  
       :ref:`FigWidth and FigHeight <plotmodelwidthheighttcl>` options added for TCL version. Date: 5/22/2024
       
-      BraineryWiz **Version 0.94** for Python users Released. Date: 12/17/2023
-      
-      BraineryWiz Python version now is available for multiple :ref:`Python versions <installation>`. Date: 12/17/2023
-       
-      BraineryWiz **Version 0.93** for Python users Released. Date: 11/29/2023
 
    .. grid-item-card:: Python Version
       :link: pythonversion
